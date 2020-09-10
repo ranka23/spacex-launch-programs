@@ -56,5 +56,3 @@ License
 ----
 
 MIT
-
-### App Live and running on: <https://hidden-springs-06011.herokuapp.com>
