@@ -9,7 +9,7 @@ As the name suggests, the app lists all the spaceX launch programs conducted sin
   - Express.js
   - Redux / React Redux / Redux Thunk / Redux Toolkit
   - Axios for API calls
-  - Docker to launch the app (eg: Heroku)
+  - Docker to deploy the app (Heroku)
   - Helmet and a few more.
 
 ### Features
