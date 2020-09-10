@@ -1,0 +1,88 @@
+@import "../theme/variables";
+
+body {
+  background-color: $color-lightest-grey;
+  font-family: "Helvetica-Light", Helvetica, Arial, sans-serif;
+  margin: 0 !important;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 0;
+  border: 0;
+  clear: both;
+}
+
+div {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+
+h1 {
+  font-size: 2em;
+  margin: 10px;
+}
+
+h2 {
+  font-size: 1.8em;
+}
+
+h3 {
+  font-size: 1.6em;
+}
+
+h4 {
+  font-size: 1.2em;
+  margin: 10px;
+}
+
+h5 {
+  text-align: center;
+  border-bottom: 1px solid #666;
+  padding-bottom: 5px;
+  margin: 0 10px;
+}
+
+p {
+  font-size: 1em;
+  color: #222222;
+  text-align: left;
+}
+
+button {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  cursor: pointer;
+  text-decoration-line: none;
+  color: #222;
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+p {
+  margin: 10px 0;
+}
+
+footer {
+  text-align: center;
+  font-weight: 800;
+}
+
+
+.App {
+  color: $color-dark-grey;
+
+  .header {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    overflow: auto;
+    padding-left: 15px;
+  }
+}
+.footer {
+  font-size: 14px;
+  text-align: center;
+}
