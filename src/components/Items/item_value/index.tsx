@@ -1,6 +1,6 @@
 import React from "react";
-import Flex from "../../ui/flex/Flex";
-import styles from "./itemvalue.module.scss";
+import Flex from "../../UI/Flex";
+import styles from "./styles.module.scss";
 
 interface ItemValueProps {
   title: string;

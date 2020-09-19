@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Card /> Should render children if no errors 1`] = `
+<div
+  class="card_container"
+>
+  <div>
+    <h1>
+      Hello World
+    </h1>
+  </div>
+</div>
+`;
+
+exports[`<Card /> Should render nothing if no children 1`] = `
+<div
+  class="card_container"
+/>
+`;

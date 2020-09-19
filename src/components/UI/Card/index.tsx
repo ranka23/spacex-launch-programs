@@ -1,9 +1,9 @@
 /* eslint-disable react/require-default-props */
-import React from "react";
-import styles from "./card.module.scss";
+import React, { ReactNode } from "react";
+import styles from "./styles.module.scss";
 
 interface CardProps {
-  children: JSX.Element[];
+  children: ReactNode;
   itemId?: string | number | null | undefined;
 }
 

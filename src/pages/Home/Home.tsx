@@ -1,8 +1,8 @@
 import React, { memo, useEffect } from "react";
 import { Helmet } from "react-helmet";
 import { shallowEqual, useDispatch, useSelector } from "react-redux";
-import Item from "../../components/items/Item";
-import Sidebar from "../../components/sidebar/Sidebar";
+import Item from "../../components/Items";
+import Sidebar from "../../components/Sidebar";
 import { AppState } from "../../store";
 import { fetchSpaceXListIfNeed } from "../../store/spaceXDataReducer";
 import styles from "./styles.module.scss";

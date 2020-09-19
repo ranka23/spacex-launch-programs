@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Button /> renders props with no errors 1`] = `
+<button
+  class="button_container "
+  type="button"
+>
+  2020
+</button>
+`;

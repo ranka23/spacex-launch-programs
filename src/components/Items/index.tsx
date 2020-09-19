@@ -1,10 +1,10 @@
 import React from "react";
-import Card from "../ui/card/Card";
-import styles from "./item.module.scss";
-import ItemValue from "./item_value/ItemValue";
+import { v4 as uuidv4 } from "uuid";
+import Card from "../UI/Card";
+import styles from "./styles.module.scss";
+import ItemValue from "./item_value";
 
 interface ItemsProps {
-  // eslint-disable-next-line react/require-default-props
   id?: string;
   missionId: string[];
   missionName: string;
@@ -45,4 +45,9 @@ const Item: React.FC<ItemsProps> = ({
     </Card>
   );
 };
+
+Item.defaultProps = {
+  id: uuidv4(),
+};
+
 export default Item;

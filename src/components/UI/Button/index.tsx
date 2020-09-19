@@ -1,10 +1,9 @@
-/* eslint-disable react/require-default-props */
 import React from "react";
-import styles from "./button.module.scss";
+import styles from "./styles.module.scss";
 
 interface ToggleButtonProps {
   toggleValue: string | boolean;
-  onClick?: (
+  onClick: (
     event: React.MouseEvent<HTMLButtonElement, MouseEvent>
   ) => void | undefined;
   buttonKey?: string;
@@ -28,4 +27,10 @@ const Button: React.FC<ToggleButtonProps> = ({
     </button>
   );
 };
+
+Button.defaultProps = {
+  buttonKey: "",
+  className: "",
+};
+
 export default Button;

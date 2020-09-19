@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Flex /> renders children if no errors 1`] = `
+<div
+  class="Flex "
+  data-test="flex"
+>
+  <div>
+    <h1>
+      Hello World
+    </h1>
+  </div>
+</div>
+`;
+
+exports[`<Flex /> renders nothing if no children 1`] = `
+<div
+  class="Flex "
+  data-test="flex"
+/>
+`;

@@ -1,8 +1,8 @@
 import React from "react";
 import { RootStateOrAny, useDispatch, useSelector } from "react-redux";
 import * as filterActions from "../../store/filterReducer";
-import Button from "../ui/button/Button";
-import styles from "./sidebar.module.scss";
+import Button from "../UI/Button";
+import styles from "./styles.module.scss";
 import YearFilterButton from "./YearFilterButton";
 
 const Sidebar: React.FC = () => {
