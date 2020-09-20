@@ -19,7 +19,6 @@ const App = ({ route }: Route) => (
     <meta property="SSR:title" content="spacex-launch-programs" />
     <meta name="description" content="spacex-launch-programs" />
     <meta name="robots" content="index" />
-    <link rel="canonical" href="https://warm-reaches-42627.herokuapp.com/" />
     <Link to="/" className={styles.header}>
       <h1>SpaceX Launch Programs</h1>
     </Link>

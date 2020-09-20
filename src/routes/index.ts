@@ -1,7 +1,7 @@
 import App from "../app";
 import { asyncHome, NotFound } from "../pages";
 import { AppThunk } from "../store";
-import { fetchSpaceXListIfNeed } from "../store/spaceXDataReducer";
+import { fetchSpaceXListIfNeed } from "../store/spaceXData";
 
 export default [
   {

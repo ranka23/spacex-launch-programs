@@ -6,8 +6,13 @@ import mockStore from "../../utils/mockStore";
 import Sidebar from "./index";
 
 describe("<Sidebar />", () => {
-  const renderHelper = (reducer = { readyStatus: "invalid" }) => {
-    const { dispatch, ProviderWithStore } = mockStore({ spaceXData: reducer });
+  const renderHelper = () => {
+    const { dispatch, ProviderWithStore } = mockStore({
+      filterButton: {
+        launchValue: false,
+        landingValue: true,
+      },
+    });
     const { container } = render(
       <ProviderWithStore>
         <MemoryRouter>
@@ -19,9 +24,7 @@ describe("<Sidebar />", () => {
     return { dispatch, firstChild: container.firstChild };
   };
 
-  it("Should fetch launchValue when page loads", () => {
-    const { dispatch } = renderHelper();
-
-    expect(dispatch).toHaveBeenCalledTimes(1);
+  it("Renders the component", () => {
+    expect(renderHelper().firstChild).toMatchSnapshot();
   });
 });

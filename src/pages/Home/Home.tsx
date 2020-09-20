@@ -4,7 +4,7 @@ import { shallowEqual, useDispatch, useSelector } from "react-redux";
 import Item from "../../components/Items";
 import Sidebar from "../../components/Sidebar";
 import { AppState } from "../../store";
-import { fetchSpaceXListIfNeed } from "../../store/spaceXDataReducer";
+import { fetchSpaceXListIfNeed } from "../../store/spaceXData";
 import styles from "./styles.module.scss";
 
 const Home = (): JSX.Element => {
@@ -57,9 +57,7 @@ const Home = (): JSX.Element => {
     <div className={styles.home}>
       <Helmet title="Home" />
       <div className={styles.content_container}>
-        <div className={styles.sidebar_container}>
-          <Sidebar />
-        </div>
+        <Sidebar />
         <div className={styles.list_items_container}>{renderList()}</div>
       </div>
     </div>

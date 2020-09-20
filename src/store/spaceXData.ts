@@ -46,13 +46,8 @@ export const {
   getFilteredList,
 } = spaceXList.actions;
 
-export const fetchSpaceXList = (): AppThunk => async (dispatch, getState) => {
-  const { launchValue } = getState().filterButton;
-  const { landingValue } = getState().filterButton;
-  const { yearValue } = getState().filterButton;
-
-  const url = getUrl(yearValue, launchValue, landingValue);
-
+export const fetchSpaceXList = (): AppThunk => async (dispatch) => {
+  const url = getUrl();
 
   dispatch(getRequest());
 

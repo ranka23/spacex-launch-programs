@@ -1,4 +1,4 @@
-import { fetchFilteredList } from "./spaceXDataReducer";
+import { fetchFilteredList } from "./spaceXData";
 import { AppThunk } from ".";
 
 interface FilterState {
@@ -57,11 +57,11 @@ export default (state = initialState, action: FilterActions): FilterState => {
 
 /*  
     These actions ascertain the values clicked in the Filters Sidebar
-    and also makes calls to api as per the values.
+    and also make calls to api as per the values received.
 */
 export const setYearValue = (value: string): AppThunk => {
   return async (dispatch) => {
-    await dispatch({ type: "YEAR_CLICKED", value });
+    dispatch({ type: "YEAR_CLICKED", value });
     dispatch(fetchFilteredList());
   };
 };

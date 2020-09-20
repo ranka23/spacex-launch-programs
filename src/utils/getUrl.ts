@@ -1,21 +1,22 @@
 import config from "../config";
+import isEmpty from "./isEmpty";
 
 export default (
-  yearValue: string,
-  launchValue: boolean,
-  landingValue: boolean
+  yearValue?: string,
+  launchValue?: boolean,
+  landingValue?: boolean
 ): string => {
   let url = `${config.API_URL}?limit=100`;
 
-  if (yearValue !== null && yearValue !== "") {
+  if (!isEmpty(yearValue)) {
     url += `&launch_year=${yearValue}`;
   }
 
-  if (launchValue !== null) {
+  if (!isEmpty(launchValue)) {
     url += `&launch_success=${launchValue.toString()}`;
   }
 
-  if (landingValue !== null) {
+  if (!isEmpty(landingValue)) {
     url += `&land_success=${landingValue.toString()}`;
   }
 

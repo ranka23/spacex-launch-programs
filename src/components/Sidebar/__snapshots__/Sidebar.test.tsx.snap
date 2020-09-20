@@ -1,0 +1,156 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Sidebar /> Renders the component 1`] = `
+<div
+  class="sidebar_container"
+>
+  <h4
+    class="filter_title"
+  >
+    Filters
+  </h4>
+  <div
+    class="filter_container"
+  >
+    <h5>
+      Launch Year
+    </h5>
+    <div
+      class="toggle_button_container"
+    >
+      <button
+        class="button_container null"
+        type="button"
+      >
+        2006
+      </button>
+      <button
+        class="button_container null"
+        type="button"
+      >
+        2007
+      </button>
+      <button
+        class="button_container null"
+        type="button"
+      >
+        2008
+      </button>
+      <button
+        class="button_container null"
+        type="button"
+      >
+        2009
+      </button>
+      <button
+        class="button_container null"
+        type="button"
+      >
+        2010
+      </button>
+      <button
+        class="button_container null"
+        type="button"
+      >
+        2011
+      </button>
+      <button
+        class="button_container null"
+        type="button"
+      >
+        2012
+      </button>
+      <button
+        class="button_container null"
+        type="button"
+      >
+        2013
+      </button>
+      <button
+        class="button_container null"
+        type="button"
+      >
+        2014
+      </button>
+      <button
+        class="button_container null"
+        type="button"
+      >
+        2015
+      </button>
+      <button
+        class="button_container null"
+        type="button"
+      >
+        2016
+      </button>
+      <button
+        class="button_container null"
+        type="button"
+      >
+        2017
+      </button>
+      <button
+        class="button_container null"
+        type="button"
+      >
+        2018
+      </button>
+      <button
+        class="button_container null"
+        type="button"
+      >
+        2019
+      </button>
+      <button
+        class="button_container null"
+        type="button"
+      >
+        2020
+      </button>
+    </div>
+  </div>
+  <div
+    class="filter_container"
+  >
+    <h5>
+      Successful Launch
+    </h5>
+    <div
+      class="toggle_button_container"
+    >
+      <button
+        class="button_container null"
+        type="button"
+      >
+        true
+      </button>
+      <button
+        class="button_container button_active"
+        type="button"
+      >
+        false
+      </button>
+    </div>
+  </div>
+  <h5>
+    Successful Landing
+  </h5>
+  <div
+    class="toggle_button_container"
+  >
+    <button
+      class="button_container button_active"
+      type="button"
+    >
+      true
+    </button>
+    <button
+      class="button_container null"
+      type="button"
+    >
+      false
+    </button>
+  </div>
+</div>
+`;

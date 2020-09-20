@@ -1,0 +1,601 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Home /> Renders the <List /> if loading was successful 1`] = `
+<div
+  class="home"
+>
+  <div
+    class="content_container"
+  >
+    <div
+      class="sidebar_container"
+    >
+      <h4
+        class="filter_title"
+      >
+        Filters
+      </h4>
+      <div
+        class="filter_container"
+      >
+        <h5>
+          Launch Year
+        </h5>
+        <div
+          class="toggle_button_container"
+        >
+          <button
+            class="button_container null"
+            type="button"
+          >
+            2006
+          </button>
+          <button
+            class="button_container null"
+            type="button"
+          >
+            2007
+          </button>
+          <button
+            class="button_container null"
+            type="button"
+          >
+            2008
+          </button>
+          <button
+            class="button_container null"
+            type="button"
+          >
+            2009
+          </button>
+          <button
+            class="button_container null"
+            type="button"
+          >
+            2010
+          </button>
+          <button
+            class="button_container null"
+            type="button"
+          >
+            2011
+          </button>
+          <button
+            class="button_container null"
+            type="button"
+          >
+            2012
+          </button>
+          <button
+            class="button_container null"
+            type="button"
+          >
+            2013
+          </button>
+          <button
+            class="button_container null"
+            type="button"
+          >
+            2014
+          </button>
+          <button
+            class="button_container null"
+            type="button"
+          >
+            2015
+          </button>
+          <button
+            class="button_container null"
+            type="button"
+          >
+            2016
+          </button>
+          <button
+            class="button_container null"
+            type="button"
+          >
+            2017
+          </button>
+          <button
+            class="button_container null"
+            type="button"
+          >
+            2018
+          </button>
+          <button
+            class="button_container null"
+            type="button"
+          >
+            2019
+          </button>
+          <button
+            class="button_container null"
+            type="button"
+          >
+            2020
+          </button>
+        </div>
+      </div>
+      <div
+        class="filter_container"
+      >
+        <h5>
+          Successful Launch
+        </h5>
+        <div
+          class="toggle_button_container"
+        >
+          <button
+            class="button_container null"
+            type="button"
+          >
+            true
+          </button>
+          <button
+            class="button_container button_active"
+            type="button"
+          >
+            false
+          </button>
+        </div>
+      </div>
+      <h5>
+        Successful Landing
+      </h5>
+      <div
+        class="toggle_button_container"
+      >
+        <button
+          class="button_container button_active"
+          type="button"
+        >
+          true
+        </button>
+        <button
+          class="button_container null"
+          type="button"
+        >
+          false
+        </button>
+      </div>
+    </div>
+    <div
+      class="list_items_container"
+    >
+      <div
+        class="list_items"
+      >
+        <div
+          class="card_container"
+        >
+          <img
+            alt="spaceX Mission Badge"
+            class="item_image"
+            src="https://images2.imgbox.com/40/e3/GypSkayF_o.png"
+          />
+          <h4
+            class="item_name"
+          >
+            FalconSat
+             #
+            1
+          </h4>
+          <div
+            class="Flex value_container"
+            data-test="flex"
+          >
+            <p
+              class="value_title"
+            >
+              Mission id
+              :
+            </p>
+            <ul
+              class="list_value"
+            >
+              <li
+                class="value"
+              >
+                232
+              </li>
+              <li
+                class="value"
+              >
+                234234
+              </li>
+            </ul>
+          </div>
+          <div
+            class="Flex value_container"
+            data-test="flex"
+          >
+            <p
+              class="value_title"
+            >
+              Launch Year
+              :
+            </p>
+            <span
+              class="value"
+            >
+              2006
+            </span>
+          </div>
+          <div
+            class="Flex value_container"
+            data-test="flex"
+          >
+            <p
+              class="value_title"
+            >
+              Successful Launch
+              :
+            </p>
+            <span
+              class="value"
+            >
+              false
+            </span>
+          </div>
+          <div
+            class="Flex value_container"
+            data-test="flex"
+          >
+            <p
+              class="value_title"
+            >
+              Successful Landing
+              :
+            </p>
+            <span
+              class="value"
+            >
+              false
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Home /> Renders the loading status if data invalid 1`] = `
+<div
+  class="home"
+>
+  <div
+    class="content_container"
+  >
+    <div
+      class="sidebar_container"
+    >
+      <h4
+        class="filter_title"
+      >
+        Filters
+      </h4>
+      <div
+        class="filter_container"
+      >
+        <h5>
+          Launch Year
+        </h5>
+        <div
+          class="toggle_button_container"
+        >
+          <button
+            class="button_container null"
+            type="button"
+          >
+            2006
+          </button>
+          <button
+            class="button_container null"
+            type="button"
+          >
+            2007
+          </button>
+          <button
+            class="button_container null"
+            type="button"
+          >
+            2008
+          </button>
+          <button
+            class="button_container null"
+            type="button"
+          >
+            2009
+          </button>
+          <button
+            class="button_container null"
+            type="button"
+          >
+            2010
+          </button>
+          <button
+            class="button_container null"
+            type="button"
+          >
+            2011
+          </button>
+          <button
+            class="button_container null"
+            type="button"
+          >
+            2012
+          </button>
+          <button
+            class="button_container null"
+            type="button"
+          >
+            2013
+          </button>
+          <button
+            class="button_container null"
+            type="button"
+          >
+            2014
+          </button>
+          <button
+            class="button_container null"
+            type="button"
+          >
+            2015
+          </button>
+          <button
+            class="button_container null"
+            type="button"
+          >
+            2016
+          </button>
+          <button
+            class="button_container null"
+            type="button"
+          >
+            2017
+          </button>
+          <button
+            class="button_container null"
+            type="button"
+          >
+            2018
+          </button>
+          <button
+            class="button_container null"
+            type="button"
+          >
+            2019
+          </button>
+          <button
+            class="button_container null"
+            type="button"
+          >
+            2020
+          </button>
+        </div>
+      </div>
+      <div
+        class="filter_container"
+      >
+        <h5>
+          Successful Launch
+        </h5>
+        <div
+          class="toggle_button_container"
+        >
+          <button
+            class="button_container null"
+            type="button"
+          >
+            true
+          </button>
+          <button
+            class="button_container button_active"
+            type="button"
+          >
+            false
+          </button>
+        </div>
+      </div>
+      <h5>
+        Successful Landing
+      </h5>
+      <div
+        class="toggle_button_container"
+      >
+        <button
+          class="button_container button_active"
+          type="button"
+        >
+          true
+        </button>
+        <button
+          class="button_container null"
+          type="button"
+        >
+          false
+        </button>
+      </div>
+    </div>
+    <div
+      class="list_items_container"
+    >
+      <p>
+        Loading...
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Home /> Renders the loading status when requesting data 1`] = `
+<div
+  class="home"
+>
+  <div
+    class="content_container"
+  >
+    <div
+      class="sidebar_container"
+    >
+      <h4
+        class="filter_title"
+      >
+        Filters
+      </h4>
+      <div
+        class="filter_container"
+      >
+        <h5>
+          Launch Year
+        </h5>
+        <div
+          class="toggle_button_container"
+        >
+          <button
+            class="button_container null"
+            type="button"
+          >
+            2006
+          </button>
+          <button
+            class="button_container null"
+            type="button"
+          >
+            2007
+          </button>
+          <button
+            class="button_container null"
+            type="button"
+          >
+            2008
+          </button>
+          <button
+            class="button_container null"
+            type="button"
+          >
+            2009
+          </button>
+          <button
+            class="button_container null"
+            type="button"
+          >
+            2010
+          </button>
+          <button
+            class="button_container null"
+            type="button"
+          >
+            2011
+          </button>
+          <button
+            class="button_container null"
+            type="button"
+          >
+            2012
+          </button>
+          <button
+            class="button_container null"
+            type="button"
+          >
+            2013
+          </button>
+          <button
+            class="button_container null"
+            type="button"
+          >
+            2014
+          </button>
+          <button
+            class="button_container null"
+            type="button"
+          >
+            2015
+          </button>
+          <button
+            class="button_container null"
+            type="button"
+          >
+            2016
+          </button>
+          <button
+            class="button_container null"
+            type="button"
+          >
+            2017
+          </button>
+          <button
+            class="button_container null"
+            type="button"
+          >
+            2018
+          </button>
+          <button
+            class="button_container null"
+            type="button"
+          >
+            2019
+          </button>
+          <button
+            class="button_container null"
+            type="button"
+          >
+            2020
+          </button>
+        </div>
+      </div>
+      <div
+        class="filter_container"
+      >
+        <h5>
+          Successful Launch
+        </h5>
+        <div
+          class="toggle_button_container"
+        >
+          <button
+            class="button_container null"
+            type="button"
+          >
+            true
+          </button>
+          <button
+            class="button_container button_active"
+            type="button"
+          >
+            false
+          </button>
+        </div>
+      </div>
+      <h5>
+        Successful Landing
+      </h5>
+      <div
+        class="toggle_button_container"
+      >
+        <button
+          class="button_container button_active"
+          type="button"
+        >
+          true
+        </button>
+        <button
+          class="button_container null"
+          type="button"
+        >
+          false
+        </button>
+      </div>
+    </div>
+    <div
+      class="list_items_container"
+    >
+      <p>
+        Loading...
+      </p>
+    </div>
+  </div>
+</div>
+`;

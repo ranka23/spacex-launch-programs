@@ -1,7 +1,7 @@
 import { connectRouter } from "connected-react-router";
 import { History } from "history";
 import filterButton from "./filterReducer";
-import spaceXList from "./spaceXDataReducer";
+import spaceXList from "./spaceXData";
 
 // Use inferred return type for making correctly Redux types
 // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
