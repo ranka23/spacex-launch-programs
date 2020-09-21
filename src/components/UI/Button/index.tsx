@@ -13,15 +13,15 @@ interface ToggleButtonProps {
 const Button: React.FC<ToggleButtonProps> = ({
   toggleValue,
   onClick,
-  buttonKey = "",
-  className = "",
+  buttonKey,
+  className,
 }: ToggleButtonProps) => {
   return (
     <button
       key={buttonKey}
       type="button"
       onClick={onClick}
-      className={`${styles.button_container} ${className}`}
+      className={`${styles.button} ${className}`}
     >
       {toggleValue.toString()}
     </button>

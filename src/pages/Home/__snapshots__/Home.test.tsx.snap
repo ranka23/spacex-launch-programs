@@ -25,91 +25,91 @@ exports[`<Home /> Renders the <List /> if loading was successful 1`] = `
           class="toggle_button_container"
         >
           <button
-            class="button_container null"
+            class="button null"
             type="button"
           >
             2006
           </button>
           <button
-            class="button_container null"
+            class="button null"
             type="button"
           >
             2007
           </button>
           <button
-            class="button_container null"
+            class="button null"
             type="button"
           >
             2008
           </button>
           <button
-            class="button_container null"
+            class="button null"
             type="button"
           >
             2009
           </button>
           <button
-            class="button_container null"
+            class="button null"
             type="button"
           >
             2010
           </button>
           <button
-            class="button_container null"
+            class="button null"
             type="button"
           >
             2011
           </button>
           <button
-            class="button_container null"
+            class="button null"
             type="button"
           >
             2012
           </button>
           <button
-            class="button_container null"
+            class="button null"
             type="button"
           >
             2013
           </button>
           <button
-            class="button_container null"
+            class="button null"
             type="button"
           >
             2014
           </button>
           <button
-            class="button_container null"
+            class="button null"
             type="button"
           >
             2015
           </button>
           <button
-            class="button_container null"
+            class="button null"
             type="button"
           >
             2016
           </button>
           <button
-            class="button_container null"
+            class="button null"
             type="button"
           >
             2017
           </button>
           <button
-            class="button_container null"
+            class="button null"
             type="button"
           >
             2018
           </button>
           <button
-            class="button_container null"
+            class="button null"
             type="button"
           >
             2019
           </button>
           <button
-            class="button_container null"
+            class="button null"
             type="button"
           >
             2020
@@ -126,13 +126,13 @@ exports[`<Home /> Renders the <List /> if loading was successful 1`] = `
           class="toggle_button_container"
         >
           <button
-            class="button_container null"
+            class="button null"
             type="button"
           >
             true
           </button>
           <button
-            class="button_container button_active"
+            class="button button_active"
             type="button"
           >
             false
@@ -146,13 +146,13 @@ exports[`<Home /> Renders the <List /> if loading was successful 1`] = `
         class="toggle_button_container"
       >
         <button
-          class="button_container button_active"
+          class="button button_active"
           type="button"
         >
           true
         </button>
         <button
-          class="button_container null"
+          class="button null"
           type="button"
         >
           false
@@ -285,91 +285,91 @@ exports[`<Home /> Renders the loading status if data invalid 1`] = `
           class="toggle_button_container"
         >
           <button
-            class="button_container null"
+            class="button null"
             type="button"
           >
             2006
           </button>
           <button
-            class="button_container null"
+            class="button null"
             type="button"
           >
             2007
           </button>
           <button
-            class="button_container null"
+            class="button null"
             type="button"
           >
             2008
           </button>
           <button
-            class="button_container null"
+            class="button null"
             type="button"
           >
             2009
           </button>
           <button
-            class="button_container null"
+            class="button null"
             type="button"
           >
             2010
           </button>
           <button
-            class="button_container null"
+            class="button null"
             type="button"
           >
             2011
           </button>
           <button
-            class="button_container null"
+            class="button null"
             type="button"
           >
             2012
           </button>
           <button
-            class="button_container null"
+            class="button null"
             type="button"
           >
             2013
           </button>
           <button
-            class="button_container null"
+            class="button null"
             type="button"
           >
             2014
           </button>
           <button
-            class="button_container null"
+            class="button null"
             type="button"
           >
             2015
           </button>
           <button
-            class="button_container null"
+            class="button null"
             type="button"
           >
             2016
           </button>
           <button
-            class="button_container null"
+            class="button null"
             type="button"
           >
             2017
           </button>
           <button
-            class="button_container null"
+            class="button null"
             type="button"
           >
             2018
           </button>
           <button
-            class="button_container null"
+            class="button null"
             type="button"
           >
             2019
           </button>
           <button
-            class="button_container null"
+            class="button null"
             type="button"
           >
             2020
@@ -386,13 +386,13 @@ exports[`<Home /> Renders the loading status if data invalid 1`] = `
           class="toggle_button_container"
         >
           <button
-            class="button_container null"
+            class="button null"
             type="button"
           >
             true
           </button>
           <button
-            class="button_container button_active"
+            class="button button_active"
             type="button"
           >
             false
@@ -406,13 +406,13 @@ exports[`<Home /> Renders the loading status if data invalid 1`] = `
         class="toggle_button_container"
       >
         <button
-          class="button_container button_active"
+          class="button button_active"
           type="button"
         >
           true
         </button>
         <button
-          class="button_container null"
+          class="button null"
           type="button"
         >
           false
@@ -455,91 +455,91 @@ exports[`<Home /> Renders the loading status when requesting data 1`] = `
           class="toggle_button_container"
         >
           <button
-            class="button_container null"
+            class="button null"
             type="button"
           >
             2006
           </button>
           <button
-            class="button_container null"
+            class="button null"
             type="button"
           >
             2007
           </button>
           <button
-            class="button_container null"
+            class="button null"
             type="button"
           >
             2008
           </button>
           <button
-            class="button_container null"
+            class="button null"
             type="button"
           >
             2009
           </button>
           <button
-            class="button_container null"
+            class="button null"
             type="button"
           >
             2010
           </button>
           <button
-            class="button_container null"
+            class="button null"
             type="button"
           >
             2011
           </button>
           <button
-            class="button_container null"
+            class="button null"
             type="button"
           >
             2012
           </button>
           <button
-            class="button_container null"
+            class="button null"
             type="button"
           >
             2013
           </button>
           <button
-            class="button_container null"
+            class="button null"
             type="button"
           >
             2014
           </button>
           <button
-            class="button_container null"
+            class="button null"
             type="button"
           >
             2015
           </button>
           <button
-            class="button_container null"
+            class="button null"
             type="button"
           >
             2016
           </button>
           <button
-            class="button_container null"
+            class="button null"
             type="button"
           >
             2017
           </button>
           <button
-            class="button_container null"
+            class="button null"
             type="button"
           >
             2018
           </button>
           <button
-            class="button_container null"
+            class="button null"
             type="button"
           >
             2019
           </button>
           <button
-            class="button_container null"
+            class="button null"
             type="button"
           >
             2020
@@ -556,13 +556,13 @@ exports[`<Home /> Renders the loading status when requesting data 1`] = `
           class="toggle_button_container"
         >
           <button
-            class="button_container null"
+            class="button null"
             type="button"
           >
             true
           </button>
           <button
-            class="button_container button_active"
+            class="button button_active"
             type="button"
           >
             false
@@ -576,13 +576,13 @@ exports[`<Home /> Renders the loading status when requesting data 1`] = `
         class="toggle_button_container"
       >
         <button
-          class="button_container button_active"
+          class="button button_active"
           type="button"
         >
           true
         </button>
         <button
-          class="button_container null"
+          class="button null"
           type="button"
         >
           false
