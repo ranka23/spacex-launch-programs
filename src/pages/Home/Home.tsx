@@ -40,7 +40,7 @@ const Home = (): JSX.Element => {
       return (
         <div className={styles.list_items} key={item.flight_number}>
           <Item
-            missionImage={item.links.mission_patch}
+            missionImage={item.links.mission_patch_small}
             missionName={item.mission_name}
             flightNumber={item.flight_number}
             missionId={item.mission_id}
