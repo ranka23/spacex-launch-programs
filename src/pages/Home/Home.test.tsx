@@ -66,7 +66,8 @@ describe("<Home />", () => {
           },
           launch_success: false,
           links: {
-            mission_patch: "https://images2.imgbox.com/40/e3/GypSkayF_o.png",
+            mission_patch_small:
+              "https://images2.imgbox.com/40/e3/GypSkayF_o.png",
           },
         },
       ],
